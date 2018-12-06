@@ -1,15 +1,15 @@
 const _ = require('lodash')
-  // var result =[];
+
   const names=['pro','gram','merit','program','it','programmer']
-  for ( name = 1; name <= 5 ; name++){
-    console.log(names.splice(names,2))
+  for ( i= 1; i <= 5 ; i++){
+    console.log(names.splice(0, 2))
   }
 
 
-// const result = _.split(name,',',3)
-// console.log(result);s
+// const result = _.split(names,',',3,4)
+// console.log(result)
 //
-// const result1 = _.split(name,',',2)
+// const result1 = _.split(names,',',3)
 // console.log(result1);
 //
 // const result2 = _.split(name, ',',3)
